@@ -1,2 +1,2 @@
 # SamllGame-TicTacToe
-小游戏
+井字棋小游戏
