@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.conter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    max-width: 397px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.box0 {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+#img6 {
+    position: absolute;
+    width: 53%;
+    height: auto;
+    z-index: 2;
+}
+
+.img1 {
+    top: 47%;
+    left: 23%;
+}
+
+.img2 {
+    top: 55%;
+    left: 23%;
+}
+
+.img3 {
+    top: 63%;
+    left: 23%;
+}
+
+.wen1 {
+    position: absolute;
+    top: 60.5%;
+    left: 23%;
+    color: aliceblue;
+    font-size: 26px;
+    background-color: #DCA772;
+    border: 3px solid rgb(242, 236, 236);
+    padding: 7px 80px 5px 77px;
+    display: inline-block;
+    border-radius: 30px;
+    z-index: 2;
+}
+
+.img4 {
+    top: 7%;
+    left: 11%;
+    width: 79%;
+}
+
+.img5 {
+    top: 26%;
+    left: 37%;
+    width: 24%;
+}
+
+#img6 {
+    top: 70%;
+    left: 41%;
+    width: 17%;
+}
+
+.conter h2 {
+    font-family: 'iFonts周年体', fallback, sans-serif;
+}
+
+.h0 {
+    position: absolute;
+    top: 38%;
+    left: 23%;
+    width: 53%;
+    text-align: center;
+    z-index: 2;
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+
+.img7 {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.img8,
+.img9 {
+    position: absolute;
+    width: 26%;
+    height: auto;
+    z-index: 2;
+}
+
+.img8 {
+    top: 65%;
+    left: 20%;
+}
+
+.img9 {
+    top: 65%;
+    left: 54%;
+}
+
+.h1 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 40%;
+    text-align: center;
+    z-index: 2;
+    font-family: 'iFonts周年体', fallback, sans-serif;
+}
+
+@media (min-width: 600px) {
+    .conter {
+        width: 70%;
+    }
+}
+
+@media (min-width: 900px) {
+    .conter {
+        width: 60%;
+    }
+}
+
+@font-face {
+    font-family: 'iFonts周年体';
+    src: url('font/iFonts周年体.ttf') format('woff');
+
+}

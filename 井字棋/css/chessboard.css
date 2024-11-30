@@ -1,0 +1,42 @@
+.chessboard {
+    position: absolute;
+    left: 27px;
+    top: 242px;
+    width: 336px;
+    height: 336px;
+    background-image: url('icons/chessboard.png');
+    background-size: cover;
+    opacity: 1;
+}
+
+#chessboard {
+    font-size: 0;
+}
+
+.cell {
+    width: 112px;
+    height: 112px;
+    border: 0px solid black;
+    display: inline-block;
+    cursor: pointer; /* 鼠标移入时显示指针 */
+}
+
+.chess_piece {
+    width: 76px;
+    height: 76px;
+    opacity: 1;
+    background-image: url('icons/blue_chess_piece.png');
+    background-size: cover;
+    margin: 17px;
+    box-sizing: border-box;
+}
+
+.chessAI {
+    width: 76px;
+    height: 76px;
+    opacity: 1;
+    background-image: url('icons/red_chess_piece.png');
+    background-size: cover;
+    margin: 17px;
+    box-sizing: border-box;     /*李欣悦加的东西*/
+}

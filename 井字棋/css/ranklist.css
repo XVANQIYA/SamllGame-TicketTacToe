@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'iFonts周年体';
+    src: url('font/iFonts周年体.ttf') format('woff');
+
+}
+
+.conter1 {
+    width: 390px;
+    height: 844px;
+    margin: 0 auto;
+    background-image: url(../img/背景.png);
+    position: relative;
+}
+
+.rank_container {
+    width: 375px;
+    height: 504px;
+    border-radius: 17px;
+    opacity: 1;
+    background-color: #DCA772;
+    position: relative;
+    left: 7px;
+    top: 152px;
+    box-sizing: border-box;
+    border: 4px solid #EEE;
+    overflow: auto;
+}
+
+.rank_container::-webkit-scrollbar {
+    display: none;
+}
+
+.rank_container .item {
+    margin: 22px 0 0 104px;
+    width: 270px;
+    height: 28px;
+}
+
+.rank_container .item li {
+    list-style-type: none;
+    float: left;
+    font-family: 'iFonts周年体';
+    font-size: 23px;
+    color: white;
+}
+
+.rank_container .rank_user>.user {
+    width: 346px;
+    height: 53px;
+    border-radius: 30px;
+    opacity: 1;
+    margin: 8px auto;
+    background: #F2F2F2;
+    overflow: hidden;
+    display: flex;
+}
+
+.rank_container .rank_user .rank_sort {
+    margin-left: 16px;
+    margin-top: 5px;
+    font-family: 'iFonts周年体';
+    font-size: 25px;
+}
+
+.rank_container .rank_user .user_avatar {
+    width: 41px;
+    height: 41px;
+    margin-top: 7px;
+    margin-left: 14px;
+    background-image: url(../img/头像.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rank_container .rank_user .user_name {
+    font-family: 'iFonts周年体';
+    font-size: 23px;
+    width: 69px;
+    height: 38px;
+    line-height: 53px;
+    margin-left: 9px;
+    overflow: hidden;
+}
+
+.rank_container .rank_user .score {
+    font-family: 'iFonts周年体';
+    font-size: 23px;
+    line-height: 53px;
+    margin-left: 40px;
+}
+
+.rank_container .rank_user .time {
+    font-family: 'iFonts周年体';
+    font-size: 23px;
+    line-height: 53px;
+    margin-left: 58px;
+}
+
+.rank_container .rank_user .time::after {
+    content: '秒';
+}
+
+.home_button {
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    left: 162px;
+    top: 710px;
+    background-image: url(../img/返回主页.png);
+    background-size: cover;
+}

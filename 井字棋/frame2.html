@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/background.css"><!--最大的容器-->
+    <link rel="stylesheet" type="text/css" href="css/volume.css"><!--音量键-->
+    <link rel="stylesheet" type="text/css" href="css/nav_container.css"><!--上方含返回键的导航栏-->
+    <link rel="stylesheet" type="text/css" href="css/chessboard.css"><!--棋盘-->
+    <link rel="stylesheet" type="text/css" href="css/lower_container.css"><!--下方输赢计算-->
+    <link rel="stylesheet" type="text/css" href="css/win_popup.css"><!--下方输赢计算-->
+
+</head>
+
+<body>
+    <div class="container"><!-- 最大的容器 -->
+        <div class="volume-icon" id="volumeIcon"></div><!-- 音量键 -->
+        <div class="nav_container"><!-- 上方含返回键的导航栏 -->
+            <div class="rectangle">
+                <div class="text" id="timer">0:03</div>
+            </div>
+            <a href="start.html">
+                <div class="go_back"></div>
+            </a>
+        </div>
+        <div class="chessboard"><!-- 棋盘 -->
+            <div id="chessboard">
+                <div class="cell" id="cell0"></div>
+                <div class="cell" id="cell1"></div>
+                <div class="cell" id="cell2"></div>
+                <div class="cell" id="cell3"></div>
+                <div class="cell" id="cell4"></div>
+                <div class="cell" id="cell5"></div>
+                <div class="cell" id="cell6"></div>
+                <div class="cell" id="cell7"></div>
+                <div class="cell" id="cell8"></div>
+            </div>
+        </div>
+        <div class="lower_container"><!-- 下方输赢计算 -->
+            <div class="rectangle5"></div>
+            <div class="red_chess_piece"></div>
+            <div class="win_text_red">赢</div>
+            <div class="win_count_red">0</div>
+            <div class="blue_chess_piece"></div>
+            <div class="win_text_blue">赢</div>
+            <div class="win_count_blue">0</div>
+            <div class="win_text_peace">平局</div>
+            <div class="win_count_peace">0</div>
+        </div>
+        <div id="popup_computer" class="group38" style="display: none;">
+            <div class="rectangle7">
+                <span class="win_text1">赢了！</span>
+            </div>
+            <div class="red_chess_piece1"></div>
+        </div>
+        <div id="popup_player" class="group38" style="display: none;">
+            <div class="rectangle7">
+                <span class="win_text2">赢了！</span>
+            </div>
+            <div class="blue_chess_piece1"></div>
+        </div>
+        <div id="popup_peace" class="group38" style="display: none;">
+            <div class="rectangle7">
+                <span class="win_text3">平局！</span>
+            </div>
+        </div>
+    </div>
+    <script src="js/PVP.js"></script><!-- PVC游戏逻辑脚本 -->
+</body>
+
+</html>

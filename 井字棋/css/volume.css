@@ -1,0 +1,13 @@
+.volume-icon {
+    position: absolute;
+    left: 341px;
+    top: 76px;
+    width: 34px;
+    height: 34px;
+    background-image: url('icons/volume.png');
+    background-size: cover;
+    opacity: 1;
+}
+.volume-icon.muted {
+    background-image: url('icons/volume-mute.png'); /* 静音时的音量图标 */
+}
